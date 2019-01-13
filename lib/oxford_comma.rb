@@ -1,4 +1,6 @@
 def oxford_comma(array)
-  while 
+  i = 0
+  while i < array.count
+    
   array.join(", ")
 end
