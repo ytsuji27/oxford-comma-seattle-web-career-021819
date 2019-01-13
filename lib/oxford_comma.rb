@@ -10,6 +10,6 @@ def oxford_comma(array)
       string << "#{array[i], "
       i += 1
     end
-    string << "and #{array[array.count-1]}"
+#    string << "and #{array[array.count-1]}"
   end
 end
