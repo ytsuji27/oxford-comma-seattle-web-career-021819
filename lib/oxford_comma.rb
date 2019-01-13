@@ -1,7 +1,7 @@
 def oxford_comma(array)
   i = 0
   string = ""
-  while i < array.count-1
+  while i < array.count-2
     string.concat("#{array[i], "")
     i += 1
   end
