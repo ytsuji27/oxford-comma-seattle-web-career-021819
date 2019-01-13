@@ -2,9 +2,8 @@ def oxford_comma(array)
   i = 0
   string = ""
   if array.count == 1
-    
-  
-  if array.count == count-2
+    array.join
+  elsif array.count == count-2
     array.join(" and ")
   end
 #  while i < array.count-2
