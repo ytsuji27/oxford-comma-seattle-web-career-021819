@@ -1,6 +1,9 @@
 def oxford_comma(array)
   i = 0
   string = ""
+  if array.count == 1
+    
+  
   if array.count == count-2
     array.join(" and ")
   end
