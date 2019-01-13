@@ -7,9 +7,9 @@ def oxford_comma(array)
     array.join(" and ")
   else
     while i < array.count-1
-      string.concat("#{array[i], "")
+      string << "#{array[i], "
       i += 1
     end
-    string.concat("and #{array[array.count-1]}")
+    string << "and #{array[array.count-1]}"
   end
 end
